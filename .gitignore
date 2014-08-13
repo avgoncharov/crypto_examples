@@ -1,3 +1,5 @@
 /Crypto/BouncyCastleExamples/bin
 /Crypto/BouncyCastleExamples/obj
 /Crypto/*.suo
+/Crypto/CmsByHand/bin
+/Crypto/CmsByHand/obj

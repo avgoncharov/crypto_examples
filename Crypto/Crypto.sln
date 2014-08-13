@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BouncyCastleExamples", "BouncyCastleExamples\BouncyCastleExamples.csproj", "{99C6F6E6-5C7C-4BC3-A71A-B046716B50F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CmsByHand", "CmsByHand\CmsByHand.csproj", "{B057FA02-E0A8-4BF5-A08D-C16BA242FED8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{99C6F6E6-5C7C-4BC3-A71A-B046716B50F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99C6F6E6-5C7C-4BC3-A71A-B046716B50F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99C6F6E6-5C7C-4BC3-A71A-B046716B50F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B057FA02-E0A8-4BF5-A08D-C16BA242FED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B057FA02-E0A8-4BF5-A08D-C16BA242FED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B057FA02-E0A8-4BF5-A08D-C16BA242FED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B057FA02-E0A8-4BF5-A08D-C16BA242FED8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
