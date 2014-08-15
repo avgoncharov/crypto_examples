@@ -44,8 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DerUtil.cs" />
+    <Compile Include="ExternalSignerInfoGenerator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignType.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Yes_We_Scan_Deal_With_It_Wide.jpeg">

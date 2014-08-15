@@ -2,6 +2,7 @@
 using Org.BouncyCastle.Asn1.Pkcs;
 using Org.BouncyCastle.Cms;
 using Org.BouncyCastle.Crypto;
+using Org.BouncyCastle.Crypto.Digests;
 using Org.BouncyCastle.Security;
 using Org.BouncyCastle.X509;
 /*
@@ -40,7 +41,21 @@ namespace CmsByHand
 		#region Utility metods.
 		private static byte[] CreateCmsByHand()
 		{
+			var dig = new Sha1Digest();
+			dig.BlockUpdate(_data, 0, _data.Length);
+			
+			byte[] fileHash = new byte[dig.GetDigestSize()];
+			dig.DoFinal(fileHash, 0);
+
+			var signTime = DateTime.UtcNow;
+			var extSignGen = new ExternalSignerInfoGenerator(
+				SignType.Pkcs7, 
+				CmsSignedDataGenerator.DigestSha1,
+				CmsSignedDataGenerator.EncryptionRsa,
+				"BC");
+
 			throw new NotImplementedException();
+
 		}
 
 		
