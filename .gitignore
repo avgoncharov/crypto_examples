@@ -3,3 +3,8 @@
 /Crypto/*.suo
 /Crypto/CmsByHand/bin
 /Crypto/CmsByHand/obj
+/Crypto/CryptoFunctions/bin
+/Crypto/CryptoFunctions/obj
+/ru.avgoncharov.pkcs10/.idea
+/ru.avgoncharov.pkcs10/*.iml
+/ru.avgoncharov.pkcs10/target
